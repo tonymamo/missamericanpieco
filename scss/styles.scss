@@ -1,0 +1,37 @@
+$brand-color: 	#abe0d6;
+$text-color: 	#6d6d6d;
+$body-bg-color: #ffffff;
+$link-color: 	#c69;
+
+
+@import 'inuit/inuit';
+@import 'grid';
+
+html {
+	border-top: $half-spacing-unit solid $brand-color;
+	color: $text-color;
+	font-family: sans-serif;
+}
+
+body {
+	background: $body-bg-color;
+	padding: $half-spacing-unit;
+}
+
+a {
+	color: $link-color;
+	&:hover {
+		color: lighten($link-color, 20%);
+	}
+}
+
+.grid {
+	background-color: $link-color;
+	border: 1px solid white;
+	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 75em;
+}
