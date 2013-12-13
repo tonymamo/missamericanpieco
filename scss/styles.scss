@@ -62,6 +62,11 @@ body {
 
 h1 {
 	color: $color-primary;
+	@extend .brand-font;
+}
+
+h2 {
+	color: $patina;
 }
 
 h2,
@@ -70,10 +75,7 @@ h4,
 h5,
 h6 {
 	font-family: $serif-family;
-}
-
-h2 {
-	color: $patina;
+	text-transform: uppercase;
 }
 
 h3,
@@ -92,12 +94,6 @@ a {
 	&:visited {
 		color: $color-text-link-visited;
 	}
-}
-
-.grid {
-	background-color: $color-text-link;
-	border: 1px solid $white;
-	color: $white;
 }
 
 .container {
