@@ -1,0 +1,46 @@
+* {
+    &,
+    &:before,
+    &:after{
+        @include vendor(box-sizing, border-box);
+    }
+}
+
+html {
+	border-top: $half-spacing-unit solid $color-border;
+	color: $color-text;
+    font:#{($base-font-size/16px)*1em}/#{$line-height-ratio} $sans-serif-family;
+    overflow-y:scroll;
+    min-height:100%;
+}
+
+body {
+	background: $color-background;
+	padding: $half-spacing-unit;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dl,
+blockquote,p,address,
+table,
+fieldset,figure,
+pre {
+    margin-bottom:$base-spacing-unit;
+    margin-bottom:($base-spacing-unit / $base-font-size)*1rem;
+}
+
+ul,ol,dd {
+    margin-left:2 * $base-spacing-unit;
+    margin-left:(2 * $base-spacing-unit / $base-font-size)*1rem;
+}
+
+li {
+    > ul,
+    > ol{
+         margin-bottom:0;
+     }
+}
+
+img {
+    max-width:100%;
+}

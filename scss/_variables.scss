@@ -1,0 +1,67 @@
+// Color Vars
+$hopbush:		#cc6699;
+$bouquet:		#b37399;
+$venus: 		#998099;
+$patina: 		#669999;
+$nebula: 		#d2e1dd;
+$white: 		#ffffff;
+$dawn-pink: 	#f2ece4;
+$wafer: 		#e1d7d2;
+$iron: 			#dadbdf;
+$regent-grey: 	#808c99;
+$pale-sky: 		#6b717f;
+$midnight-blue:	#324663;
+
+
+
+// Colors
+$color-shadow:				rgba(#000, .125);
+$color-primary:				$hopbush;
+$color-accent:				$patina;
+$color-background:			$white;
+$color-background-shade:	$iron;
+$color-background-invert:	$hopbush;
+$color-text:				$pale-sky;
+$color-text-weak:			$regent-grey;
+$color-text-strong:			$midnight-blue;
+$color-text-heading:		$regent-grey;
+$color-text-invert:			rgba($color-background, .75);
+$color-text-strong-invert:	$color-background;
+$color-text-link:			$color-primary;
+$color-text-link-visited:	$venus;
+$color-text-link-hover:		$patina;
+$color-border:				$patina;
+
+
+
+// Fonts
+$brand-font:				"bistro-script-web", bistroscriptregular, cursive;
+$sans-serif-family: 		"source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-family: 				"chaparral-pro", Georgia, "Times New Roman", Times, serif;
+
+
+
+
+$base-font-size:    16px!default;
+$base-line-height:  24px!default;
+$base-spacing-unit: $base-line-height!default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+$line-height-ratio: $base-line-height / $base-font-size;
+
+
+
+
+
+$giga-size:         96px!default;
+$mega-size:         72px!default;
+$kilo-size:         48px!default;
+
+$h1-size:           36px!default; // .alpha
+$h2-size:           30px!default; // .beta
+$h3-size:           24px!default; // .gamma
+$h4-size:           20px!default; // .delta
+$h5-size:           16px!default; // .epsilon
+$h6-size:           14px!default; // .zeta
+
+$milli-size:        12px!default;
+$micro-size:        10px!default;

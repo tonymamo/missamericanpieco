@@ -1,65 +1,15 @@
-// Color Vars
-$hopbush:		#cc6699;
-$bouquet:		#b37399;
-$venus: 		#998099;
-$patina: 		#669999;
-$nebula: 		#d2e1dd;
-$white: 		#ffffff;
-$dawn-pink: 	#f2ece4;
-$wafer: 		#e1d7d2;
-$iron: 			#dadbdf;
-$regent-grey: 	#808c99;
-$pale-sky: 		#6b717f;
-$midnight-blue:	#324663;
-
-
-
-// Colors
-$color-shadow:				rgba(#000, .125);
-$color-primary:				$hopbush;
-$color-accent:				$patina;
-$color-background:			$white;
-$color-background-shade:	$iron;
-$color-background-invert:	$hopbush;
-$color-text:				$pale-sky;
-$color-text-weak:			$regent-grey;
-$color-text-strong:			$midnight-blue;
-$color-text-heading:		$regent-grey;
-$color-text-invert:			rgba($color-background, .75);
-$color-text-strong-invert:	$color-background;
-$color-text-link:			$color-primary;
-$color-text-link-visited:	$venus;
-$color-text-link-hover:		$patina;
-$color-border:				$patina;
-
-
-
-// Fonts
-$brand-font:				"bistro-script-web", bistroscriptregular, cursive;
-$sans-serif-family: 		"source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif-family: 				"chaparral-pro", Georgia, "Times New Roman", Times, serif;
-
-
-
 // Imports
-@import 'fonts';
-@import 'inuit/inuit';
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
 @import 'grid';
+@import 'utility';
+@import 'base';
+@import 'type';
 
 
 
 // Begin Styles
-html {
-	border-top: $half-spacing-unit solid $color-border;
-	color: $color-text;
-	font-family: $sans-serif-family;
-}
-
-body {
-	background: $color-background;
-	padding: $half-spacing-unit;
-}
-
 h1 {
 	color: $color-primary;
 	@extend .brand-font;
